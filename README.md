@@ -1,6 +1,6 @@
 # windows-874 [![Build status](https://travis-ci.org/mathiasbynens/windows-874.svg?branch=master)](https://travis-ci.org/mathiasbynens/windows-874) [![Dependency status](https://gemnasium.com/mathiasbynens/windows-874.svg)](https://gemnasium.com/mathiasbynens/windows-874)
 
-_windows-874_ is robust JavaScript implementation of [the windows-874 character encoding as defined by the Encoding Standard](http://encoding.spec.whatwg.org/#windows-874).
+_windows-874_ is a robust JavaScript implementation of [the windows-874 character encoding as defined by the Encoding Standard](http://encoding.spec.whatwg.org/#windows-874).
 
 This encoding is known under the following names: dos-874, iso-8859-11, iso8859-11, iso885911, tis-620, windows-874, and windows-874.
 
