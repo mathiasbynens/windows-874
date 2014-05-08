@@ -51,7 +51,7 @@ module.exports = function(grunt) {
 					}
 				},
 				'files': {
-					'windows874.js': ['src/windows874.js']
+					'windows-874.js': ['src/windows-874.js']
 				}
 			},
 			'build-tests': {

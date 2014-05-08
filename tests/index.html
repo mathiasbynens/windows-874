@@ -8,28 +8,47 @@
 	<body>
 		<div id="qunit"></div>
 		<script src="../node_modules/qunitjs/qunit/qunit.js"></script>
-		<script src="../windows874.js"></script>
+		<script src="../windows-874.js"></script>
 		<script>
-			// populate `QUnit.urlParams`
 			QUnit.urlParams.norequire = /[?&]norequire=true(?:&|$)/.test(location.search);
 
-			// load tests.js if not using require.js
 			document.write(QUnit.urlParams.norequire
 				? '<script src="tests.js"><\/script>'
 				: '<script src="../node_modules/requirejs/require.js"><\/script>'
 			);
 		</script>
 		<script>
-			window.require && require({
-				'baseUrl': '../node_modules/requirejs/',
-				'urlArgs': 't=' + (+new Date),
-				'paths': {
-					'windows874': '../../windows874'
+			(function(root) {
+				if (!root.require) {
+					return;
 				}
-			},
-			['windows874'], function(windows874) {
-				require(['tests.js']);
-			});
+				QUnit.config.autostart = false;
+
+				requirejs.config({
+					'baseUrl': './',
+					'urlArgs': 't=' + (+new Date),
+					'waitSeconds': 0,
+					'packages': [
+						{
+							'name': 'windows-874',
+							'location': '..',
+							'main': 'windows-874'
+						},
+						{
+							'name': 'tests',
+							'location': '.',
+							'main': 'tests'
+						}
+					]
+				});
+
+				require(['windows-874'], function(windows874) {
+					root.windows874 = windows874;
+					require(['tests'], function() {
+						QUnit.start();
+					});
+				});
+			}(this));
 		</script>
 	</body>
 </html>

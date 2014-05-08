@@ -24,7 +24,7 @@
 
 	// The `windows874` object to test
 	var windows874 = root.windows874 || (root.windows874 = (
-		windows874 = load('../windows874.js') || root.windows874,
+		windows874 = load('../windows-874.js') || root.windows874,
 		windows874 = windows874.windows874 || windows874
 	));
 

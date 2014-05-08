@@ -3,7 +3,7 @@
 	"version": "0.1.1",
 	"description": "A robust windows-874 encoder/decoder written in JavaScript.",
 	"homepage": "http://mths.be/windows-874",
-	"main": "windows874.js",
+	"main": "windows-874.js",
 	"keywords": [
 		"codec",
 		"decoder",
@@ -35,7 +35,7 @@
 	},
 	"files": [
 		"LICENSE-MIT.txt",
-		"windows874.js"
+		"windows-874.js"
 	],
 	"directories": {
 		"test": "tests"
