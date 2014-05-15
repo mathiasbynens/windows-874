@@ -7,8 +7,11 @@
 	"keywords": [
 		"codec",
 		"decoder",
+		"decoding",
 		"encoder",
+		"encoding",
 		"legacy",
+		"legacy-encoding",
 		"dos-874",
 		"iso-8859-11",
 		"iso8859-11",
