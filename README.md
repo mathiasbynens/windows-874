@@ -1,4 +1,4 @@
-# windows-874 [![Build status](https://travis-ci.org/mathiasbynens/windows-874.svg?branch=master)](https://travis-ci.org/mathiasbynens/windows-874) [![Dependency status](https://gemnasium.com/mathiasbynens/windows-874.svg)](https://gemnasium.com/mathiasbynens/windows-874)
+# windows-874 [![Build status](https://travis-ci.org/mathiasbynens/windows-874.svg?branch=master)](https://travis-ci.org/mathiasbynens/windows-874) [![Code coverage status](http://img.shields.io/coveralls/mathiasbynens/windows-874/master.svg)](https://coveralls.io/r/mathiasbynens/windows-874) [![Dependency status](https://gemnasium.com/mathiasbynens/windows-874.svg)](https://gemnasium.com/mathiasbynens/windows-874)
 
 _windows-874_ is a robust JavaScript implementation of [the windows-874 character encoding as defined by the Encoding Standard](http://encoding.spec.whatwg.org/#windows-874).
 
