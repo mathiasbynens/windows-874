@@ -1,4 +1,4 @@
-/*! https://mths.be/windows-874 v1.0.0 by @mathias | MIT license */
+/*! https://mths.be/windows-874 v1.0.1 by @mathias | MIT license */
 ;(function() {
 
 	var object = {};
@@ -107,7 +107,7 @@
 			'tis-620',
 			'windows-874'
 		],
-		version: '1.0.0',
+		version: '1.0.1',
 	};
 
 	module.exports = windows874;
