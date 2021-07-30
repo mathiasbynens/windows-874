@@ -12,23 +12,15 @@ Via [npm](https://www.npmjs.com/):
 npm install windows-874
 ```
 
-In a browser:
-
-```html
-<script src="windows-874.js"></script>
-```
-
-In [Node.js](https://nodejs.org/):
+In a browser or in [Node.js](https://nodejs.org/):
 
 ```js
-const windows874 = require('windows-874');
+import {encode, decode, labels} from 'windows-874';
+// or…
+import * as windows874 from 'windows-874';
 ```
 
 ## API
-
-### `windows874.version`
-
-A string representing the semantic version number.
 
 ### `windows874.labels`
 
