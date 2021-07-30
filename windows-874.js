@@ -1,4 +1,4 @@
-/*! https://mths.be/windows-874 v1.0.2 by @mathias | MIT license */
+/*! https://mths.be/windows-874 v1.1.0 by @mathias | MIT license */
 ;(function() {
 
 	const stringFromCharCode = String.fromCharCode;
@@ -99,7 +99,7 @@
 			'tis-620',
 			'windows-874'
 		],
-		version: '1.0.2',
+		version: '1.1.0',
 	};
 
 	module.exports = windows874;
