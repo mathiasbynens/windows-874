@@ -1,4 +1,4 @@
-# windows-874 [![windows-874 on npm](https://img.shields.io/npm/v/windows-874)](https://www.npmjs.com/package/windows-874)
+# windows-874 [![Build status](https://github.com/mathiasbynens/windows-874/workflows/run-checks/badge.svg)](https://github.com/mathiasbynens/windows-874/actions?query=workflow%3Arun-checks) [![windows-874 on npm](https://img.shields.io/npm/v/windows-874)](https://www.npmjs.com/package/windows-874)
 
 _windows-874_ is a robust JavaScript implementation of [the windows-874 character encoding as defined by the Encoding Standard](https://encoding.spec.whatwg.org/#windows-874).
 
