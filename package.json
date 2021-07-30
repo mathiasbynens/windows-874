@@ -1,6 +1,6 @@
 {
 	"name": "windows-874",
-	"version": "1.1.0",
+	"version": "2.0.0",
 	"description": "A robust windows-874 encoder/decoder written in JavaScript.",
 	"homepage": "https://mths.be/windows-874",
 	"exports": "windows-874.mjs",
