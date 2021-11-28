@@ -31,8 +31,10 @@
 	"bugs": "https://github.com/mathiasbynens/windows-874/issues",
 	"files": [
 		"LICENSE-MIT.txt",
-		"windows-874.mjs"
+		"windows-874.mjs",
+		"windows-874.d.ts"
 	],
+	"types": "windows-874.d.ts",
 	"scripts": {
 		"download": "curl https://encoding.spec.whatwg.org/index-windows-874.txt > data/index.txt",
 		"build": "node scripts/transform-data.js",
